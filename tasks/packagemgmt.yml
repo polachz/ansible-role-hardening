@@ -264,7 +264,7 @@
 - name: dnf upgrade
   become: 'yes'
   dnf:
-    name:  "*"
+    name: "*"  # noqa package-latest
     state: latest
     bugfix: 'yes'
     security: 'yes'

@@ -1,9 +1,7 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: "[BUG] Action failed"
-labels: ''
-assignees: konstruktoid
+name: Lint failure
+about: A lint failure issue
+title: [ACTION] Linting failed
+labels: bug
 ---
-
-A action failed.
+{{ tools.context.actor }}: {{ tools.context.sha }}
